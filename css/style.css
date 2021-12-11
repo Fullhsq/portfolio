@@ -2,33 +2,51 @@
     outline: 1px solid black;
 }
 .container {
-    width: 100%;
+    width: 70%;
     height: 100%;
     display: grid;
-    grid-template-columns: 100px 400px 740px 740px;
+    grid-template-columns: 150px 500px 550px 680px;
     grid-template-rows: 1fr 1fr 2fr 1fr 1fr 1.5fr;
 }
 .logo {
+    grid-column: 1/3;
 }
 .socials {
+    background: #f0d0aa;
+    grid-row: 1/5;
+    grid-column: 3/4;
 }
 .about_sections {
 }
 .whiteline {
+    grid-row: 2/-1;
 }
 .yellow_block_one {
+    background: #fff2c5;
 }
 .orange_block_one {
 }
 .block {
 }
 .block_descriotion {
+    background: #fff2c5;
+    z-index: 1;
 }
 .head_desc {
+    font-size: 40px;
+    width: 400px;
+    margin-left: -43px;
 }
 .main_desc {
+    font-size: 17px;
+    width: 500px;
+    margin-left: -43px;
+}
+.text{
+    
 }
 .learn_more {
+    margin-left: -43px;
 }
 .big_name {
 }
