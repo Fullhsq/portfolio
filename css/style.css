@@ -1,0 +1,36 @@
+*{
+    outline: 1px solid black;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 400px 740px 740px;
+    grid-template-rows: 1fr 1fr 2fr 1fr 1fr 1.5fr;
+}
+.logo {
+}
+.socials {
+}
+.about_sections {
+}
+.whiteline {
+}
+.yellow_block_one {
+}
+.orange_block_one {
+}
+.block {
+}
+.block_descriotion {
+}
+.head_desc {
+}
+.main_desc {
+}
+.learn_more {
+}
+.big_name {
+}
+.social {
+}
