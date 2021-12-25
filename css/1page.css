@@ -73,6 +73,15 @@
 .nav_sections{
     margin-right: 50px;
     list-style-type: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.nav_sections1{
+    margin-right: 10px;
+    list-style-type: none;
+    text-decoration: none;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -340,5 +349,15 @@
     font-family: 'Readex Pro', sans-serif;
     color: rgb(82, 80, 80);
     font-weight: bold;
-    margin-right: 100px ;
+    margin-right: 00px;
+}
+.nav_sections:nth-child(1){
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
 }
