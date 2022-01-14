@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid black;
+    outine: 1px solid black;
 }
 .container{
     width: 100%;
@@ -39,12 +39,6 @@
     color: black;
     font-weight: bold;
 }
-.line{
-    width: 500px;
-    height: 3px;
-    margin-top: 100px;
-    background: #292828;
-}
 .logo {
     font-family: 'Readex Pro', sans-serif;
     color: #292828;
@@ -67,14 +61,17 @@
 }
 .header{
     display: flex;
+    margin-left: -10px;
     justify-content: space-around;
     align-items: baseline;
 }
 .nav{
     display: flex;
+
+    justify-content: space-around;
 }
-.nav_sections{
-    margin-right: 50px;
+.nav_sections1{
+    margin-right: 70px;
     list-style-type: none;
     text-decoration: none;
     font-size: 24px;
@@ -82,7 +79,8 @@
     color: black;
 }
 .nav_sections2 {
-    margin-right: 50px;
+    margin-right: 70px;
+    margin-left: 30px;
     list-style-type: none;
     text-decoration: none;
     font-size: 24px;
@@ -93,4 +91,55 @@
 }
 .none{
     list-style-type: none;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 51px;
+    margin-top: 30px;
+    width: 1013px;
+}
+.my_name{
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.description_text{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(104, 104, 104);
+}
+.block_text{
+    width: 913px;
+    height: 200px;
+    background: rgb(236, 222, 205);
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+}
+.all{
+    color: black;
+}
+.line{
+    position: relative;
+    left: 330px;
+    top: -160px;
+    display: flex;
+}
+.line1{
+    width: 170px;
+    height: 5px;
+    background: rgb(161, 113, 113);
+}
+.line2{
+    width: 170px;
+    height: 5px;
+    background: rgb(138, 156, 141);
+}
+.line3{
+    width: 170px;
+    height: 5px;
+    background: rgb(172, 130, 173);
 }
