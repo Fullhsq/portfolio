@@ -143,3 +143,127 @@
     height: 5px;
     background: rgb(172, 130, 173);
 }
+.main{
+    width: 1115px;
+    margin-top: 100px;
+    border-top: 1px solid slategray ;
+    display: grid;
+    grid-template-columns: 371px 371px 371px;
+    grid-template-rows: 400px 400px;
+}
+.blocck_text{
+    grid-column: 2/4;
+}
+.first_col{
+    width: 150px;
+    height: 335px;
+    background: rgb(138, 113, 161);
+    justify-content: center;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.second_col{
+    width: 150px;
+    height: 305px;
+    background: rgb(138, 156, 141);
+    justify-content: center;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.third_col{
+    width: 150px;
+    height: 275px;
+    background: rgb(172, 130, 173);
+    justify-content: center;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.fourth_col{
+    width: 150px;
+    height: 295px;
+    background: rgb(58, 12, 12);
+    justify-content: center;
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.col{
+    margin-top: 150px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: wheat;
+}
+.kind{
+    margin-top: 200px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: -50px;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+}
+.u{
+    color: rgb(138, 113, 161);
+    font-size: 25px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: 10px;
+    margin-left: -36px;
+}
+.b{
+    color: rgb(236, 222, 205);
+    font-size: 23px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: -55px;
+}
+.c{
+    color: rgb(138, 156, 141);
+    font-size: 23px;
+    margin-top: -27px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: -18px;
+}
+.w{
+    color: rgb(172, 130, 173);
+    font-size: 23px;
+    margin-top: -55px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: -58px;
+}
+.f{
+    color: rgb(236, 222, 205);
+    font-size: 23px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: -52px;
+}
+.s{
+    color: rgb(58, 12, 12);
+    font-size: 23px;
+    margin-top: -60px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-left: -32px;
+}
+.h{
+    color: rgb(236, 222, 205);
+    font-size: 23px;
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: -52px;
+}
+.blocck_text{
+    box-shadow: -2px 5px 5px -4px rgba(0, 0, 0, 0.6) inset;
+}
+.about_project {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    color: rgb(34, 26, 26);
+}
+.text {
+    font-size: 20px;
+    color: rgb(29, 28, 28);
+    font-family: 'Poppins', sans-serif;;
+}
+.footer{
+    margin-top: 100px;
+}
