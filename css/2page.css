@@ -267,3 +267,104 @@
 .footer{
     margin-top: 100px;
 }
+.footer {
+    border-top: 3px solid rgb(187, 182, 182);
+    display: flex;
+    height: 450px;
+    flex-direction: column;
+    justify-content:space-between;
+    text-align: center;
+}
+.instagram {
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.blocks {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+.block1 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-right: -60px;
+    border-radius: 50%;
+    background: #f0d0aa;
+}
+.block2 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-right: -60px;
+    border-radius: 50%;
+    background: rgb(161, 113, 113);
+}
+.block3 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-right: -60px;
+    border-radius: 50%;
+    background: rgb(138, 156, 141);
+}
+.block4 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-right: -60px;
+    border-radius: 50%;
+    background: rgb(172, 130, 173);
+}
+.block5 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    margin-right: -60px;
+    border-radius: 50%;
+    background: #fff2c5;;
+}
+.socials {
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.allsocials {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: 'Readex Pro', sans-serif;
+    text-decoration: none;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.a{
+    word-spacing: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 23px;
+    font-family: 'Readex Pro', sans-serif;
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+    margin-right: 00px;
+}
+.nav_sections:nth-child(1){
+    margin-right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
