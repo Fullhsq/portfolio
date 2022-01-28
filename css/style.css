@@ -12,14 +12,14 @@
     grid-column: 1/3;
     font-family: 'Readex Pro', sans-serif;
     color: #292828;
-    font-size: 35px;
+    font-size: 2.916em;
     letter-spacing: -2px;
 }
 .logo p{
     grid-column: 1/3;
     font-family: 'Poppins', sans-serif;
     letter-spacing: -1px;
-    font-size: 17px;
+    font-size: 1.41em;
     margin-left: 70px;
     margin-top: -53px;
 
