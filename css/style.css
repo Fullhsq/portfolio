@@ -12,14 +12,14 @@
     grid-column: 1/3;
     font-family: 'Readex Pro', sans-serif;
     color: #292828;
-    font-size: 2.916em;
+    font-size: 2.1875rem;
     letter-spacing: -2px;
 }
 .logo p{
     grid-column: 1/3;
     font-family: 'Poppins', sans-serif;
     letter-spacing: -1px;
-    font-size: 1.41em;
+    font-size: 1.0625rem;
     margin-left: 70px;
     margin-top: -53px;
 
@@ -32,7 +32,7 @@
     background: #f0d0aa;
     grid-row: 1/5;
     grid-column: 3/4;
-    font-size: 1.41em;
+    font-size: 1.0625rem;
     font-family: 'Poppins', sans-serif;
     word-spacing: 50px;
     text-align: center;
@@ -50,7 +50,7 @@
 }
 .about_text{
     color: #292828;
-    font-size: 1.41em;
+    font-size: 1.0625rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -73,26 +73,26 @@
     z-index: 1;
 }
 .head_desc {
-    font-size: 3.33em;
+    font-size: 2.5rem;
     width: 470px;
     font-family: 'Readex Pro', sans-serif;
     margin-left: -43px;
 }
 .main_desc {
-    font-size: 1.25em;
+    font-size: .9375rem;
     width: 550px;
     line-height: 20px;
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: -43px;
 }
 .text{
-    font-size: 8.333333333333334em;
+    font-size: 6.25rem;
     background: #fff2c5;
 }
 .learn_more{
     height: 30px;
     width: 102px;
-    font-size: 1.6666666666666667em;
+    font-size: 1.25rem;
     margin-left: -43px;
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
@@ -102,7 +102,7 @@
 }
 .big_name {
     grid-column: 1/3;
-    font-size: 9.666666666666666em;
+    font-size: 110px;
     z-index: 2;
     margin-left: 100px;
 }
@@ -119,7 +119,7 @@
 }
 .social1 {
     color: #292828;
-    font-size: 1.4166666666666667em;
+    font-size: 1.0625rem;
     text-align: center;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
