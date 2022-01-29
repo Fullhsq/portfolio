@@ -8,7 +8,7 @@
     letter-spacing: 5px;
     height: 23px;
     text-align: center;
-    font-size: 1em;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     background: white;
 }
@@ -18,9 +18,16 @@
     color: rgb(104, 104, 104);
     text-align: left;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
 }
+@media screen and (min-width: 640px){
+    .h3{
+        font-size: 1em;
+    }
+}
+    
+}    
 .af{
     margin-left: 130px;
 }
@@ -30,7 +37,7 @@
 .desc{
     letter-spacing: -1px;
     text-align: left;
-    font-size: 1em;
+    font-size: 12px;
     margin-top: -10px;
     font-family: 'Poppins', sans-serif;
     color: black;
@@ -45,7 +52,7 @@
 .logo {
     font-family: 'Readex Pro', sans-serif;
     color: #292828;
-    font-size: 2.5em;
+    font-size: 30px;
     letter-spacing: -2px;
 }
 .name{
@@ -74,7 +81,7 @@
     margin-right: 50px;
     list-style-type: none;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
@@ -82,7 +89,7 @@
     margin-right: 10px;
     list-style-type: none;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
@@ -96,13 +103,13 @@
 .my_name{
     letter-spacing: 1px;
     text-align: left;
-    font-size: 1em;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     color: rgb(82, 80, 80);
     font-weight: bold;
 }
 .description_text{
-    font-size: 3.3333333333333335em;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     color: rgb(104, 104, 104);
 }
@@ -241,7 +248,7 @@
     color: black;
     right: -775px;
     top: -10px;
-    font-size: 3em;
+    font-size: 35px;
 }
 .popup_area{
     position: absolute;
@@ -270,7 +277,7 @@
 }
 .instagram {
     letter-spacing: 1px;
-    font-size: 1em;
+    font-size: 12px;
     font-family: 'Poppins', sans-serif;
     color: rgb(82, 80, 80);
     font-weight: bold;
@@ -333,7 +340,7 @@
     display: flex;
     justify-content: space-between;
     letter-spacing: 1px;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Readex Pro', sans-serif;
     text-decoration: none;
     color: rgb(82, 80, 80);
@@ -345,7 +352,7 @@
     justify-content: space-between;
     text-decoration: none;
     letter-spacing: 1px;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Readex Pro', sans-serif;
     color: rgb(82, 80, 80);
     font-weight: bold;
@@ -355,7 +362,7 @@
     margin-right: 20px;
     list-style-type: none;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
     -webkit-text-fill-color: transparent;
