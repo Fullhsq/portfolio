@@ -102,7 +102,7 @@
     font-weight: bold;
 }
 .description_text{
-    font-size: 40px;
+    font-size: 1em;
     font-family: 'Poppins', sans-serif;
     color: rgb(104, 104, 104);
 }
@@ -361,7 +361,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px black;
 }
-@media screen and (min-width: 840px){
+@media screen and (min-width:640px){
     .h3{
         font-size: 1em;
     }
@@ -372,6 +372,6 @@
         font-size: 1em;
     }
     .description_text{
-        font-size: 1em;
+        font-size: 40px;
     }
 }
